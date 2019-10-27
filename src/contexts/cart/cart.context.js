@@ -7,3 +7,4 @@ const CartContext = createContext({
 
 export default CartContext;
 
+console.log("here")
