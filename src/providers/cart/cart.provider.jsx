@@ -37,21 +37,4 @@ const CartProvider = ({ children }) => {
   }, [cartItems]);
 
   return (
-    <CartContext.Provider
-      value={{
-        hidden,
-        toggleHidden,
-        cartItems,
-        addItem,
-        removeItem,
-        clearItemFromCart,
-        cartItemsCount,
-        cartTotal
-      }}
-    >
-      {children}
-    </CartContext.Provider>
-  );
-};
-
-export default CartProvider;
+   
